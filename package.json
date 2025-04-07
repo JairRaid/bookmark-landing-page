@@ -9,7 +9,7 @@
     "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sass": "sass --watch public/scss/main.scss:src/index.css"
+    "sass": "sass --watch public/scss/main.scss:src/index.css --style=compressed"
   },
   "dependencies": {
     "react": "^19.0.0",
