@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/JairRaid/bookmark-landing-page
+- Live Site URL: https://jairraid.github.io/bookmark-landing-page/
 
 ## My process
 

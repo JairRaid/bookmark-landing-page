@@ -79,7 +79,11 @@ function App() {
               />
               <h3>Add to Chrome</h3>
               <p>Minimum version 62</p>
-              <img src="images/bg-dots.svg" alt="" className="separator" />
+              <img
+                src="images/bg-dots.svg"
+                alt="bg-dots separator"
+                className="separator"
+              />
               <button className="btn-purple">Add & Install Extension</button>
             </article>
             <article className="download-item">
@@ -90,7 +94,11 @@ function App() {
               />
               <h3>Add to Firefox</h3>
               <p>Minimum version 55</p>
-              <img src="images/bg-dots.svg" alt="" className="separator" />
+              <img
+                src="images/bg-dots.svg"
+                alt="bg-dots separator"
+                className="separator"
+              />
               <button className="btn-purple">Add & Install Extension</button>
             </article>
             <article className="download-item">
@@ -101,7 +109,11 @@ function App() {
               />
               <h3>Add to Opera</h3>
               <p>Minimum version 46</p>
-              <img src="images/bg-dots.svg" alt="" className="separator" />
+              <img
+                src="images/bg-dots.svg"
+                alt="bg-dots separator"
+                className="separator"
+              />
               <button className="btn-purple">Add & Install Extension</button>
             </article>
           </div>
