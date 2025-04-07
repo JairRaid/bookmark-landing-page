@@ -630,7 +630,7 @@ body {
   }
 
   #root {
-    margin: 48px 32px 0 32px;
+    padding: 48px 32px 0 32px;
     max-width: 1440px;
   }
 
@@ -674,6 +674,7 @@ body {
       border-radius: 5px;
       width: 111px;
       height: 40px;
+      margin-right: 74px;
       cursor: pointer;
       transition: 0.3s ease;
     }
@@ -714,6 +715,7 @@ body {
       h1 {
         @include typo(3rem, $c-black, 500, 52px, -0.15px);
         margin-bottom: 24px;
+        max-width: 650px;
       }
 
       p {
@@ -753,6 +755,9 @@ body {
   }
 
   #features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     margin-bottom: 149px;
 
@@ -765,6 +770,7 @@ body {
     p {
       @include typo(1.125rem, $c-black, 400, 28px, 0);
       opacity: 50%;
+      max-width: 550px;
     }
 
     h2 + p {
@@ -868,6 +874,9 @@ body {
   }
 
   #download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     margin-bottom: 229px;
 
@@ -881,9 +890,13 @@ body {
       margin-bottom: 6px;
     }
 
+    h2 + p {
+      max-width: 450px;
+    }
+
     p {
       @include typo(0.9375rem, $c-black, 400, 25px, 0);
-      opacity: 75%;
+      opacity: 50%;
     }
 
     h3 + p {
