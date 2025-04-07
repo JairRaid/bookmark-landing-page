@@ -832,6 +832,7 @@ body {
   #features .feature-list article {
     flex-basis: 50%;
     text-align: left;
+    margin: auto;
   }
   #features figure {
     position: relative;
